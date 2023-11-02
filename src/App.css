@@ -1,0 +1,54 @@
+.inputTagCSS {
+    height: 3rem;
+    width: 26rem;
+    padding: 3px 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: none;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.inputTagCSS:focus {
+    border-color: none;
+}
+
+.inputTagCSSM {
+    height: 2rem;
+    width: 90%;
+    padding: 3px 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: none;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.inputTagCSSM:focus {
+    border-color: none;
+}
+
+.tableCell {
+    border: none;
+}
+
+body {
+    /* background-color: #F3FEE8; */
+    background-image: url('./weather.jpg');
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@media (max-width : 780px){
+    body{
+        height: 100%;
+    }
+}
