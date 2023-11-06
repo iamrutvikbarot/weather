@@ -46,9 +46,3 @@ body {
     background-size: cover;
 
 }
-
-@media (max-width : 780px){
-    body{
-        height: 100%;
-    }
-}
